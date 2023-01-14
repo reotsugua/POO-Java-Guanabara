@@ -1,0 +1,39 @@
+<<interface>>
+Aula06.Controlador
+________________
+________________
++ ligar()
++ desligar()
++ abrirMenu()
++ fecharMenu()
++ maisVolume()
++ menosVolume()
++ ligarMudo()
++ desligarMudo
++ play()
++ pause()
+
+
+
+ControleRemoto
+_______________
+- volume
+- ligado
+- tocando
+_______________
++ ligar()
++ desligar()
++ abrirMenu()
++ fecharMenu()
++ maisVolume()
++ menosVolume()
++ ligarMudo()
++ desligarMudo
++ play()
++ pause()
+- setVolume()
+- getVolume()
+- setLigado()
+- getLigado()
+- setTocando()
+- getTocando()
