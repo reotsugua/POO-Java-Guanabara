@@ -13,17 +13,23 @@ public class Lutador implements Controlador {
     // Métodos Públicos
     @Override
     public void apresentar() {
-        System.out.println("Lutador: " + this.getNome());
-        System.out.println("Origem" + this.getNacionalidade());
+        System.out.println("------------------------------");
+        System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.getNome());
+        System.out.println("Origem: "+ this.getNacionalidade());
         System.out.println("Idade: " + this.getIdade());
-        System.out.println(this.getAltura() + "Altura: ");
+        System.out.println(this.getAltura() + " de altura");
         System.out.printf("Pesando %s kg \n", this.getPeso());
-        System.out.println();
+        System.out.println(this.getVitorias()+" vitórias");
+        System.out.println(this.getDerrotas()+" derrotas");
+        System.out.println(this.getEmpates()+" empates");
     }
 
     @Override
     public void status() {
-
+        System.out.println(this.getNome()+" é um peso "+this.getCategoria());
+        System.out.println("Ganhou "+this.getVitorias()+" vezes");
+        System.out.println("Perdeu "+this.getDerrotas()+" vezes");
+        System.out.println("Empatou "+this.getEmpates()+" vezes");
     }
 
     @Override
