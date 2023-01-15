@@ -14,7 +14,9 @@ public class Pessoa {
     }
 
     //Métodos Públicos
-    public void fazerAniversario(){}
+    public void fazerAniversario(){
+        this.setIdade(this.getIdade()+1);
+    }
 
     //Métodos Especiais
     public String getNome() {
