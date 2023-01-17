@@ -1,26 +1,26 @@
 package Aula10;
 
 public class Aluno extends Pessoa{
-    public Aluno(String nome, int idade, String sexo) {
-        super(nome, idade, sexo);
-    }
+
 
     //Atributos
-    private int matr;
+    private int mat;
     private String curso;
 
     //Métodos Públicos
-    public void cancelarMatr(){}
+    public void cancelarMatr(){
+        System.out.println("Matricula será cancelada");
+    }
 
     //Métodos Especiais
 
 
-    public int getMatr() {
-        return matr;
+    public int getMat() {
+        return mat;
     }
 
-    public void setMatr(int matr) {
-        this.matr = matr;
+    public void setMat(int mat) {
+        this.mat = mat;
     }
 
     public String getCurso() {

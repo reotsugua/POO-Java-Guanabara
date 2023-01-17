@@ -1,9 +1,7 @@
 package Aula10;
 
 public class Professor extends Pessoa{
-    public Professor(String nome, int idade, String sexo) {
-        super(nome, idade, sexo);
-    }
+
 
     //Atributos
     private String especialidade;
@@ -11,7 +9,9 @@ public class Professor extends Pessoa{
 
     //Construtores
     //Métodos Públicos
-    public void receberAum(){}
+    public void receberAum(float aum){
+        this.setSalario(this.getSalario()+aum);
+    }
 
     //Métodos Especiais
 

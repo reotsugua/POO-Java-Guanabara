@@ -8,8 +8,13 @@ public class Pessoa {
 
     //Construtores
 
+
+
+
     //Métodos Públicos
-    public void fazerAniversario(){}
+    public void fazerAniversario(){
+        this.setIdade(this.getIdade()+1);
+    }
 
     //Métodos Especiais
     public String getNome() {
@@ -34,5 +39,14 @@ public class Pessoa {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", sexo='" + sexo + '\'' +
+                '}';
     }
 }

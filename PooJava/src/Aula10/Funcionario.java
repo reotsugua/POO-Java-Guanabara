@@ -1,9 +1,7 @@
 package Aula10;
 
 public class Funcionario extends Pessoa{
-    public Funcionario(String nome, int idade, String sexo) {
-        super(nome, idade, sexo);
-    }
+
 
     //Atributos
     private String setor;
@@ -11,7 +9,9 @@ public class Funcionario extends Pessoa{
 
     //Construtores
     //Métodos Públicos
-    public void mudarTrabalho(){}
+    public void mudarTrabalho(){
+        this.setTrabalhando(!this.getTrabalhando());
+    }
 
     //Métodos Especiais
 
@@ -23,7 +23,7 @@ public class Funcionario extends Pessoa{
         this.setor = setor;
     }
 
-    public boolean isTrabalhando() {
+    public boolean getTrabalhando() {
         return trabalhando;
     }
 
