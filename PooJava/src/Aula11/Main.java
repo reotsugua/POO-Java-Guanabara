@@ -10,5 +10,21 @@ public class Main {
 
         Aluno a1 = new Aluno();
         a1.setNome("Cláudio");
+        a1.pagarMensalidade();
+
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(1112);
+        b1.setNome("Jubileu");
+        b1.setBolsa(12);
+        b1.pagarMensalidade();
+
+        Tecnico t1 = new Tecnico();
+        t1.setRegistroProfissional(87654);
+        t1.setNome("Roberto");
+        t1.praticar();
+        t1.pagarMensalidade();
+
+
+
     }
 }
