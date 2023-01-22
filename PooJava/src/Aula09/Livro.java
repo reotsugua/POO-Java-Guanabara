@@ -20,6 +20,9 @@ public class Livro implements Publicacao{
         this.leitor = leitor;
     }
 
+    public Livro(Pessoa leitor) {
+        this.leitor = leitor;
+    }
 
     //Métodos Públicos
     public String detalhes() {

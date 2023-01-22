@@ -16,5 +16,6 @@ public class ProjetoLivro {
         l[0].folhear(100);
         l[0].avancarPag();
         System.out.println(l[0].detalhes());
+        l[0].setLeitor("pedro");
     }
 }
