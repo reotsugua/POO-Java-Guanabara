@@ -21,4 +21,12 @@ public class Peixe extends Animal{
     public void emitirSom() {
         System.out.println("Peixe não faz som");
     }
+
+    public String getCorEscama() {
+        return corEscama;
+    }
+
+    public void setCorEscama(String corEscama) {
+        this.corEscama = corEscama;
+    }
 }

@@ -19,6 +19,15 @@ public class Ave extends Animal{
 
     @Override
     public void emitirSom() {
+
         System.out.println("Ave cantando");
+    }
+
+    public String getCorPena() {
+        return corPena;
+    }
+
+    public void setCorPena(String corPena) {
+        this.corPena = corPena;
     }
 }

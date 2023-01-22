@@ -1,4 +1,4 @@
-package Aula12;
+package AulaTeste;
 
 public abstract class Animal {
     protected float peso;
