@@ -34,4 +34,12 @@ public final class Gafanhoto extends Pessoa{
     public void setTotAssistido(int totAssistido) {
         this.totAssistido = totAssistido;
     }
+
+    @Override
+    public String toString() {
+        return "Gafanhoto{" +
+                "login='" + login + '\'' +
+                ", totAssistido=" + totAssistido +
+                '}';
+    }
 }
